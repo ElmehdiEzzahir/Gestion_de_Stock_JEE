@@ -1,0 +1,125 @@
+@charset "ISO-8859-1";
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: #d1cfc8;
+}
+html {
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+
+
+.Container{
+    text-align: center;
+    margin-top: 50px;
+    width: 100%;
+    height: 100%;
+
+}
+.Container input,textarea{
+    border-radius: 3px;
+    width: 400px;
+    padding: 15px;
+    border: 4px solid gray ;
+    margin: 0.5rem;
+    color: #192a33;
+    font-size: 1rem
+}
+.Container select{
+    border-radius: 3px;
+    width: 400px;
+    padding: 15px;
+    border: 4px solid gray;
+    margin: 0.5rem;
+    color:#192a33;
+    font-size: 1rem;
+}
+.Container input::placeholder{
+    color: #192a33;
+}
+.Container button{
+    border-radius: 3px;
+    width: 400px;
+    padding: 15px;
+    border: 4px solid gray;
+    background-color: gray;
+    margin: 0.5rem;
+    color: black;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    margin-top: 5px;
+    
+}
+
+.message{
+    text-align: center;
+    font-size: 1rem;
+    padding: 10px;
+    color: gray;
+}
+
+.Container form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 3px solid #ddd;
+  border-radius: 5px;
+  margin-top: 10px;
+  background:white;
+}
+
+label {
+  text-align:left;
+  font-size:large;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.Container input[type="text"],
+input[type="number"],
+input[type="password"],
+select,
+textarea {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-sizing: border-box;
+  background:white;
+  font-size: 1rem
+}
+
+.logout:hover {
+  background-color: #333;
+  color: #fff;
+}
+.logout{
+	color:black;
+	padding: 5px;
+	font-style: normal;
+	
+}
+
+.Container input[type="submit"] {
+  background-color: black;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 25px;
+  
+}
+
+.Container input[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
